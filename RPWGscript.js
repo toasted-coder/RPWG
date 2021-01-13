@@ -1,5 +1,5 @@
 //DOM elements
-var reslultEl = document.querySelector('#result');
+var resultEl = document.querySelector('#result');
 var lengthEl = document.querySelector('#length');
 var uppercaseEl = document.querySelector('#uppercase');
 var lowercaseEl = document.querySelector('#lowercase');
@@ -7,7 +7,7 @@ var numbersEl = document.querySelector('#numbers');
 var symbolsEl = document.querySelector('#symbols');
 var generateEl = document.querySelector('#generate');
 var clipboardEl = document.querySelector('#clipboard');
-console.log(clipboardEl)
+
 
 var randomFunc = {
     lower: getRandomLower,
@@ -19,7 +19,7 @@ var randomFunc = {
 //Copy password to clipboard option
 clipboardEl.addEventListener('click', () => {
   var textarea = document.createElement('textarea');
-  var password = reslultEl.innerText;
+  var password = resultEl.innerText;
 
   if(!password) {
       return;
@@ -41,17 +41,12 @@ generateEl.addEventListener("click", () => {
   var hasNumber = numbersEl.checked;
   var hasSymbol = symbolsEl.checked;
 
-  resultEl.innerText = generatePassword(
-    hasLower,
-    hasUpper,
-    hasNumber,
-    hasSymbol,
-    length);
+  resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 });
 
 //Generate PW function
 function generatePassword(lower, upper, number, symbol, length) {
-    let generatePassword = '';
+    let generatedPassword = '';
     var typesCount = lower + upper + number + symbol;
     var typesArr = [{lower},{upper}, {number}, {symbol}].filter(
         item => Object.values(item)[0]
