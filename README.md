@@ -12,6 +12,7 @@ README.md
     <li>Currently two problems arise stopping completion - Generate button refuses to work and console is loggin error saying it doesn't recognize certain elements as elements.</li>
     <li>Resolved issue where addEventListener was popping up with errors, culprit was misplacement of script in html. Fixed(Thanks the help of some fresh eyes!)</li>
     <li>Fixed some typos that were causing errors in console.</li>
+    <li>Fixed generate password button to finally work.</li>
 
 </ol>
 

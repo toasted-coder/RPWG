@@ -64,7 +64,7 @@ function generatePassword(lower, upper, number, symbol, length) {
         });
     }
 
-    var finalPassword = generatePassword.slice(0, length); 
+    var finalPassword = generatedPassword.slice(0, length); 
 
     return finalPassword;
 }
