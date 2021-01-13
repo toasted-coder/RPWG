@@ -1,12 +1,13 @@
 //DOM elements
-var reslultEl = document.querySelector('result');
-var lengthEl = document.querySelector('length');
-var uppercaseEl = document.querySelector('uppercase');
-var lowercaseEl = document.querySelector('lowercase');
-var numbersEl = document.querySelector('numbers');
-var symbolsEl = document.querySelector('symbols');
-var generateEl = document.querySelector('generate');
-var clipboardEl = document.querySelector('clipboard');
+var reslultEl = document.querySelector('#result');
+var lengthEl = document.querySelector('#length');
+var uppercaseEl = document.querySelector('#uppercase');
+var lowercaseEl = document.querySelector('#lowercase');
+var numbersEl = document.querySelector('#numbers');
+var symbolsEl = document.querySelector('#symbols');
+var generateEl = document.querySelector('#generate');
+var clipboardEl = document.querySelector('#clipboard');
+console.log(clipboardEl)
 
 var randomFunc = {
     lower: getRandomLower,
