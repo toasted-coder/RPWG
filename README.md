@@ -4,7 +4,7 @@ The Random Password Generator is used to generate a random password that meets c
 <br>
 
 <br>
-![Screenshot](/assets/RPWGscreenshot.jpg?raw=true "Random PW Generator Screenshot")
+![Screenshot](/RPWG/assets/RPWGscreenshot.jpg?raw=true "Random PW Generator Screenshot")
 <ol>
     <li>First step in the project I took was googling different password generator projects online.</li>
     <li>Found a project that I liked the look and functionality of compared to the one provided to us.</li>
