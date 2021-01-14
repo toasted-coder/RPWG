@@ -1,9 +1,10 @@
 <h1>Project: Random Password Generator</h1>
 <br>
 The Random Password Generator is used to generate a random password that meets certain requirements such as length, capital or lower-case letters, numbers, and symbols. Has a clipboard button for easy copying of your generated password.
+<br>
 
-
-
+<br>
+![Screenshot](/assets/RPWGscreenshot.jpg?raw=true "Random PW Generator Screenshot")
 <ol>
     <li>First step in the project I took was googling different password generator projects online.</li>
     <li>Found a project that I liked the look and functionality of compared to the one provided to us.</li>
